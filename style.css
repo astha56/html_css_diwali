@@ -1,0 +1,175 @@
+body{
+    margin:0;
+    font-family: "Salsa", cursive;
+}
+
+.jhalar{
+   width: 220px;
+   margin-bottom: -180px;
+}
+
+.hero-section{
+    /* min-height:100vh; */
+    background-color: #f9950f;
+    background-image: url(orange-backdrop.png);
+    background-size: cover;
+    background-repeat:no-repeat;
+    
+}
+.paragraph-audio {
+    margin-left: 15rem;
+}
+
+.hero-section p {
+    font-size: 46px;
+    max-width: 500px;
+    
+}
+audio::-webkit-media-controls-play-button,
+     audio::-webkit-media-controls-panel {
+     background-color: #FBD8A4;
+      
+     }
+
+.audio-container{
+
+    background-color: #FBD8A4;
+    max-width: max-content;
+    border-radius: 45px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 20px;
+   
+}
+.lax_gan_sec h2 {
+    font-family: 'Style Script', cursive;
+    font-size: 54px;
+    font-weight:400px;
+    text-align: center;
+}
+
+
+.lax_gan_sec{
+    background-color:#f9950f;
+    padding-block: 1em;
+    padding-inline: 1rem;
+}
+
+.lax_gan{
+    max-width: 900px;
+    display: block;
+    margin-inline:auto;
+
+}
+
+.lax_gan_img{
+    max-width: 900px;
+    width: 100%;
+    display: block;
+    margin-inline: auto;
+    margin-top: 2rem;
+}
+
+.horizontal_divider{
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    width:800px;
+    margin-inline:auto;
+    margin-top: 2rem;
+}
+
+.horizontal-line{
+    height: 2px;
+    background-color: #FBD8A4;
+    width:468px;
+}
+
+.circle{
+    width: 10px;
+    height:10px;
+    background-color: white;
+    border-radius: 100%;
+    flex-shrink: 0;
+}
+
+.white_card_con
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+
+.white_card{
+    max-width:500px;
+    background-color: white;
+    padding:4rem;
+    border-radius: 24px;
+
+}
+.white_card p {
+    font-size: 32px;
+
+}
+
+
+
+.lit{
+    width: 250px;
+    margin-left: -5rem;
+}
+
+.laxmi_ganesh_card{
+    background-color: white;
+    padding:2rem;
+    border-radius: 24px;
+    max-width: max-content;
+    display: flex;
+    margin-inline:auto;
+    margin-top: 2rem;
+}
+
+.laxmi-ganesh-card img {
+    width: 50%;
+}
+.thank-you-text{
+    max-width: 900px;
+    width: 100%;
+    margin-inline:auto;
+}
+
+.thank-you-text h2{
+    text-align: left;
+}
+
+.my-name {
+    text-align: right;
+    font-size: 14px;
+}
+
+
+@media (max-width<840px) {
+    .first_diyo{
+        display: block;
+        margin-left: auto;
+    }
+    .second_diyo {
+        display: none;
+    }
+    .lax_gan_sec h2{
+        font-size: 32px;
+    
+    }
+    
+    .white-card p {
+        font-size: 1rem;
+      }
+    
+}
+
+
+
+
+
